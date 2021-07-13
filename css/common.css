@@ -10,10 +10,8 @@
 body {
   background: var(--primery-bg-color);
   color: var(--primery-tex-color);
-}
 
 font-family: Roboto, sans-serif;
-
 letter-spacing: 0.03em;
 }
 
