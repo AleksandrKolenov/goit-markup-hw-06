@@ -64,7 +64,7 @@
 
                         </div>
                         <form class="form-primery">
-                            <h3 class="title-form">Оставьте свои данные, мы вам перезвоним</h3>
+                            <p class="title-form">Оставьте свои данные, мы вам перезвоним</p>
                             <div class="form-field">
 
                                 <label class="label-focus" for="name">Имя</label>
@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="form-field">
-                                <label for="tel">Телефон</label>
+                                <label class="label-focus" for="tel">Телефон</label>
 
                                 <input type="tel" class="input_text" name="tel" id="tel">
                                 <svg class="icons_modal" width=" 18px" height="18px">
@@ -84,7 +84,7 @@
                             </div>
 
                             <div class="form-field">
-                                <label for="email">Почта</label>
+                                <label class="label-focus" for="email">Почта</label>
                                 <input type="email" class="input_text" name="email" id="email">
                                 <svg class="icons_modal" width=" 18px" height="18px">
                                     <use href="./images/icon.svg.svg#icon-Vector-4"></use>
@@ -92,16 +92,23 @@
 
                             </div>
                             <div class="form-field">
-                                <label for="comment">Комментарий</label>
+                                <label class="label-focus" for="comment">Комментарий</label>
                                 <textarea class="comment" name="comment" id="comment" rows="8"
                                     placeholder="Введите текст"></textarea>
                             </div>
 
                             <div class="topic-option">
                                 <label class="label_checkbox">
+
                                     <input class="checkbox_box" type="checkbox" name="topic" value="html">
-                                    <p class="icon_five">Соглашаюсь с рассылкой и принимаю <a href=""
-                                            class="icon_six">Условия договора</a></p>
+                                    <svg class="checkbox-icon">
+                                        <use href="./images/icon check.svg">
+
+                                        </use>
+                                    </svg>
+                                    <span class="icon_five">Соглашаюсь с рассылкой и принимаю &nbsp;<a href=""
+                                            class="icon_six">Условия договора</a></span>
+
                                 </label>
                                 <button type="submit" class="btn-one">Отправить</button>
                             </div>
