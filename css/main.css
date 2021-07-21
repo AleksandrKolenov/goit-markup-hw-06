@@ -950,12 +950,9 @@ margin-right: 0;
 
 .closed:hover {
 fill: var(--accent-color);
-
 }
 
-/* .footer_containe {
-  margin-right: 93px;
-} */
+
 
 .icon {
   display: inline-block;
@@ -1010,18 +1007,18 @@ letter-spacing: 0.03em;
   justify-content: center;
 }
 
-.checkbox_box {
+/* .checkbox_box {
   appearance: none; 
-}
+} */
 
-.label {
+/* .label {
   display: flex;
   text-align: center;
     margin-bottom: 30px;
-}
+} */
 
 
-.icon_five {
+/* .icon_five {
   
   display: inline-block;
   width: 20px;
@@ -1036,5 +1033,8 @@ letter-spacing: 0.03em;
  background-image: url(../images/vector\ check.svg);
  background-size: contain;
  background-origin: border-box;
-}
+} */
 
+.form-primery .label_checkbox{
+  margin: 0;
+}
